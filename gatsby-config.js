@@ -11,6 +11,7 @@ module.exports = {
     twitterUsername: "@actuallyatiger",
   },
   plugins: [
+    `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-plugin-manifest`,
