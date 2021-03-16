@@ -4,10 +4,10 @@ module.exports = {
   /* Your site config here */
   siteMetadata: {
     title: "Tiger Taylor",
-    titleTemplate: "%s · ${site.siteMetadata.title}",
+    titleTemplate: "%s · Tiger Taylor",
     description: "Wesbite for Tiger Taylor (actuallyatiger)",
     url: "https://actuallyatiger.netlify.app",
-    image: "/images/logo.jpg", // Path to your image you placed in the 'static' folder
+    image: "/images/logo.png",
     twitterUsername: "@actuallyatiger",
   },
   plugins: [
