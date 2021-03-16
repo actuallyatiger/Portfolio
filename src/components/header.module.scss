@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500&display=swap');
+
+// Colour variables
+$blue: #415599;
+$white: #F2EEE4;
+
+.header {
+  font-family: 'Roboto Slab', serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 5rem;
+  box-shadow: 0px 0.25rem 1rem #999;
+  margin-bottom: 2rem;
+  font-weight: 500;
+  background: $white;
+}
+
+.logo {
+  font-size: 36px;
+  color: $blue;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.logo-divider {
+  margin: 0 0.5rem;
+  border-left: 2px solid $blue
+}
+
+.nav-list {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+
+}
+
+.nav-item {
+  color: $blue;
+  text-decoration: none;
+  font-size: 1.2rem;
+  margin-left: 3rem;
+  font-size: 20px;
+}
