@@ -10,15 +10,15 @@ const Header = () => {
         <span>TT</span><div className={headerStyles.logoDivider}></div><span>Tiger Taylor</span>
       </Link>
       <nav>
-        <ul class={headerStyles.navList}>
+        <ul className={headerStyles.navList}>
           <li>
-            <Link to="/about" class={headerStyles.navItem}>About</Link>
+            <Link to="/about" className={headerStyles.navItem}>About</Link>
           </li>
           <li>
-            <Link to="/projects" class={headerStyles.navItem}>Projects</Link>
+            <Link to="/projects" className={headerStyles.navItem}>Projects</Link>
           </li>
           <li>
-            <Link to="/contact" class={headerStyles.navItem}>Contact</Link>
+            <Link to="/contact" className={headerStyles.navItem}>Contact</Link>
           </li>
         </ul>
       </nav>
