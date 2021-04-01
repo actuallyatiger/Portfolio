@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500&display=swap');
 
 // Colour variables
-$blue: #415599;
-$white: #F2EEE4;
+$blue: #3850A0;
+$white: #F2F2F2;
 
 .header {
   font-family: 'Roboto Slab', serif;
@@ -15,19 +15,6 @@ $white: #F2EEE4;
   margin-bottom: 2rem;
   font-weight: 500;
   background: $white;
-}
-
-.logo {
-  font-size: 36px;
-  color: $blue;
-  text-decoration: none;
-  display: flex;
-  flex-direction: row;
-}
-
-.logo-divider {
-  margin: 0 0.5rem;
-  border-left: 2px solid $blue
 }
 
 .nav-list {

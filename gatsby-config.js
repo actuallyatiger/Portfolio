@@ -7,7 +7,7 @@ module.exports = {
     titleTemplate: "%s · Tiger Taylor",
     description: "Wesbite for Tiger Taylor (actuallyatiger)",
     url: "https://actuallyatiger.netlify.app",
-    image: "/images/logo.png",
+    image: "./logo.png",
     twitterUsername: "@actuallyatiger",
   },
   plugins: [
@@ -21,11 +21,19 @@ module.exports = {
         lang: `en`,
         display: `standalone`,
         icon: `src/images/icon.png`,
+        icon_options: {
+          purpose: `any maskable`,
+        },
         start_url: `/`,
-        background_color: `#f2eee4`,
-        theme_color: `#5065a8`,
+        background_color: `#f2f2f2`,
+        theme_color: `#3850a0`,
       },
     },
-    `gatsby-plugin-offline`,
+    {
+      resolve: `gatsby-plugin-offline`,
+      options: {
+        precachePages: [`/`, `/about`, `/projects`, `/contact`],
+      },
+    },
   ],
 }
