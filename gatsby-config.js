@@ -7,7 +7,7 @@ module.exports = {
     titleTemplate: "%s · Tiger Taylor",
     description: "Wesbite for Tiger Taylor (actuallyatiger)",
     url: "https://actuallyatiger.netlify.app",
-    image: "./logo.png",
+    image: "/logo.png",
     twitterUsername: "@actuallyatiger",
   },
   plugins: [
@@ -32,7 +32,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-offline`,
       options: {
-        precachePages: [`/`, `/about`, `/projects`, `/contact`],
+        precachePages: [`/`, `/about/`, `/projects/*`, `/contact/`],
       },
     },
   ],

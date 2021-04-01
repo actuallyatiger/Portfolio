@@ -28,17 +28,28 @@ const SEO = ({ title, description, image }) => {
       <html lang="en" />
       <meta name="description" content={seo.description} />
       <meta name="image" content={seo.image} />
+      <meta name="og:type" content="website" />
       {seo.url && <meta property="og:url" content={seo.url} />}
-      {seo.title && <meta property="og:title" content={`${titleTemplate.replace("%s", seo.title)}`} />}
+      {seo.title && (
+        <meta
+          property="og:title"
+          content={`${titleTemplate.replace("%s", seo.title)}`}
+        />
+      )}
       {seo.description && (
         <meta property="og:description" content={seo.description} />
       )}
       {seo.image && <meta property="og:image" content={seo.image} />}
-      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:card" content="summary" />
       {twitterUsername && (
         <meta name="twitter:creator" content={twitterUsername} />
       )}
-      {seo.title && <meta name="twitter:title" content={`${titleTemplate.replace("%s", seo.title)}`} />}
+      {seo.title && (
+        <meta
+          name="twitter:title"
+          content={`${titleTemplate.replace("%s", seo.title)}`}
+        />
+      )}
       {seo.description && (
         <meta name="twitter:description" content={seo.description} />
       )}
