@@ -1,13 +1,14 @@
 import React from "react"
 import { Link } from "gatsby"
 
-import * as headerStyles from "./header.module.scss"
+import * as headerStyles from "../styles/header.module.scss"
+import logoSVG from "../images/logo.svg"
 
 const Header = () => {
   return (
     <header className={headerStyles.header}>
-      <Link to="/">
-        <img src="./logo.svg" alt="Tiger Taylor" />
+      <Link to="/" className={headerStyles.logo}>
+        <img src={logoSVG} alt="Tiger Taylor" />
       </Link>
       <nav>
         <ul className={headerStyles.navList}>

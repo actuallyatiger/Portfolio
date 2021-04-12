@@ -2,6 +2,8 @@ import React from "react"
 
 import Layout from "../components/layout"
 
+import * as indexStyles from "../styles/index.module.scss"
+
 const Home = () => {
   return (
     <Layout title="Home">
