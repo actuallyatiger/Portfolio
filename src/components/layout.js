@@ -2,10 +2,11 @@ import React from "react"
 import { Helmet } from "react-helmet"
 import { Link, graphql, useStaticQuery } from "gatsby"
 
-import * as layoutStyles from "./layout.module.scss"
+import * as layoutStyles from "../styles/layout.module.scss"
 
 import SEO from "./seo"
 import Header from "./header"
+import Footer from "./footer"
 
 const Layout = props => {
   const data = useStaticQuery(graphql`
@@ -28,6 +29,7 @@ const Layout = props => {
         <Header />
         {props.children}
       </div>
+      <Footer />
     </div>
   )
 }
