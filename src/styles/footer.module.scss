@@ -1,19 +1,18 @@
 @use "./colours" as *;
 
 .footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1.5rem 5%;
-    text-align: center;
-    box-shadow: 0px -0.25rem 0.5rem #ccc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 5%;
+  text-align: center;
+  box-shadow: 0px -0.25rem 0.5rem #ccc;
 }
 
-
 .to-top {
-    padding: 0.5rem;
-    border: 2px solid $blue;
-    border-radius: 10px;
-    cursor: pointer;
-    outline: none;
+  padding: 0.5rem;
+  border: 2px solid $blue;
+  border-radius: 10px;
+  cursor: pointer;
+  outline: none;
 }
