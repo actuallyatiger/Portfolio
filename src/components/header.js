@@ -2,7 +2,9 @@ import React from "react"
 import { Link } from "gatsby"
 
 import * as headerStyles from "../styles/header.module.scss"
+
 import logoSVG from "../images/logo.svg"
+import menuIcon from "../images/menu.svg"
 
 const Header = () => {
   return (
@@ -29,6 +31,7 @@ const Header = () => {
           </li>
         </ul>
       </nav>
+      <img src={menuIcon} alt="Menu" className={headerStyles.menu} />
     </header>
   )
 }
