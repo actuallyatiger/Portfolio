@@ -1,0 +1,29 @@
+@use "./colours" as *;
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500&family=Roboto:wght@400;500&display=swap');
+
+* {
+  margin: 0;
+  border: 0;
+  overflow-x: hidden;
+  background: $white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.content {
+  background: #fff;
+  flex-grow: 1;
+}
+
+.children {
+  padding: 1rem;
+  margin-top: 5rem;
+}
