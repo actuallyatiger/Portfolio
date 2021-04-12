@@ -7,7 +7,7 @@ module.exports = {
     titleTemplate: "%s · Tiger Taylor",
     description: "Wesbite for Tiger Taylor (actuallyatiger)",
     url: "https://actuallyatiger.netlify.app",
-    image: "/logo.png",
+    image: "/seologo.png",
     twitterUsername: "@actuallyatiger",
   },
   plugins: [
