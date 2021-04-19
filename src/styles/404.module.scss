@@ -1,22 +1,23 @@
 @use "./colours" as *;
 
 .container {
-    display: flex;
+  display: flex;
 }
 
-
-.h1, .p, .link-home {
-    justify-content: center;
-    text-align: center;
-    padding: 1rem 0;
+.h1,
+.p,
+.link-home {
+  justify-content: center;
+  text-align: center;
+  padding: 1rem 0;
 }
 
 .h1 {
-    padding-top: 5rem;
+  padding-top: 5rem;
 }
 
 .link-home {
-    text-decoration: none;
-    color: $blue;
-    display: block;
+  text-decoration: none;
+  color: $blue;
+  display: block;
 }
